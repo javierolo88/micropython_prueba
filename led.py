@@ -12,7 +12,7 @@ from utime import sleep, sleep_ms
 led1=pin(2,pin.OUT)
 pul_a=pin(15,pin.IN,pin.PULL_UP)
 pul_b=pin(14,pin.IN,pin.PULL_UP)
-pausa=0.3
+pausa=0.4
 def correo():
     led1.value(1)
     sleep(pausa)
